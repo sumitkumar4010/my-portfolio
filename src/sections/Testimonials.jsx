@@ -1,10 +1,10 @@
 
 import {motion} from "framer-motion";
 
-import m11 from "../assets/m11.png"
-import m22 from "../assets/m22.png"
-import w11 from "../assets/w11.png"
-import w22 from "../assets/w22.png"
+import m11 from "../assets/m11.PNG"
+import m22 from "../assets/m22.PNG"
+import w11 from "../assets/w11.PNG"
+import w22 from "../assets/w22.PNG"
 
 
 const testimonials = [
