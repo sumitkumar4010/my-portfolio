@@ -124,7 +124,7 @@ export default function Home() {
               I turn complex ideas into seamless, high-impact web experience - building modern, scalable, and lightning-fast application that make a difference.
             </motion.p>
 
-            <motion.div className="mt-10 flex flex-wrap items-center lg:justify-start gap-6"
+            <motion.div className="mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-6"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 0.8 }}
@@ -143,7 +143,7 @@ export default function Home() {
 
             </motion.div>
 
-            <div className="mt-10 flex - gap-5 text-2xl md:text-3xl justify-center lg:justify-start">
+            <div className="mt-10 flex gap-5 text-2xl md:text-3xl justify-center lg:justify-start">
               {socials.map(({ Icon, label, href }) => (
                 <motion.a
                   href={href}
