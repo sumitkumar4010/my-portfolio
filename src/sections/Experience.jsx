@@ -294,7 +294,7 @@ export default function Experience() {
             {experiences.map((exp, idx) => (
               <motion.div
                 key={idx}
-                className="relative flex flex-col items-center min-h-[520px]"
+                className="relative flex flex-col items-center min-h-130"
                 variants={cardVariants}
                 initial="hidden"
                 whileInView="visible"
@@ -309,7 +309,7 @@ export default function Experience() {
 
                 {/* Card */}
                 <div
-                  className={`absolute w-full max-w-[330px] ${
+                  className={`absolute w-full max-w-82.5 ${
                     idx % 2 === 0
                       ? "bottom-[58%]"
                       : "top-[58%]"
@@ -367,7 +367,7 @@ export default function Experience() {
 
           {/* Vertical Timeline */}
           <motion.div
-            className="absolute left-[13px] top-0 bottom-0 w-1 bg-white/15 rounded-full origin-top"
+            className="absolute left-3.25 top-0 bottom-0 w-1 bg-white/15 rounded-full origin-top"
             initial={{ scaleY: 0 }}
             whileInView={{ scaleY: 1 }}
             viewport={{ once: true, amount: 0.1 }}
@@ -435,6 +435,6 @@ export default function Experience() {
           </div>
         </div>
       </div>
-    </section>
+    </section> 
   );
 }
