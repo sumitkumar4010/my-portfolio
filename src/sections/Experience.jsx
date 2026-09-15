@@ -384,10 +384,10 @@ export default function Experience() {
               <motion.div
                 key={idx}
                 className="relative pl-11"
-                initial={{ opacity: 0, x: 40 }}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{
                   opacity: 1,
-                  x: 0,
+                  y: 0,
                 }}
                 viewport={{
                   once: true,
